@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85.6mm" height="54mm" viewBox="0 0 85.6 54" shape-rendering="crispEdges">
+<rect x="0" y="0" width="85.6" height="54" fill="#ffffff" stroke="#999999" stroke-width="0.2" stroke-dasharray="1 1"/>
+<rect x="4" y="4" width="15" height="15" fill="#000000"/>
+<rect x="6.5" y="6.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="11.5" y="6.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="14" y="6.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="9" y="9" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="14" y="9" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="11.5" y="11.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="14" y="11.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="11.5" y="14" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="66.6" y="4" width="15" height="15" fill="#000000"/>
+<rect x="69.1" y="9" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="71.6" y="9" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="74.1" y="9" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="76.6" y="9" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="69.1" y="11.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="76.6" y="11.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="69.1" y="14" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="74.1" y="14" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="66.6" y="35" width="15" height="15" fill="#000000"/>
+<rect x="74.1" y="37.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="76.6" y="37.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="74.1" y="40" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="76.6" y="40" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="74.1" y="42.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="69.1" y="45" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="71.6" y="45" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="76.6" y="45" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="4" y="35" width="15" height="15" fill="#000000"/>
+<rect x="6.5" y="37.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="14" y="37.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="6.5" y="40" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="14" y="40" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="9" y="42.5" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="9" y="45" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="11.5" y="45" width="2.5" height="2.5" fill="#ffffff"/>
+<rect x="17.8" y="31" width="50" height="1.2" fill="#000"/>
+<rect x="17.65" y="29.5" width="0.3" height="1.5" fill="#000"/>
+<rect x="27.65" y="29.5" width="0.3" height="1.5" fill="#000"/>
+<rect x="37.65" y="29.5" width="0.3" height="1.5" fill="#000"/>
+<rect x="47.65" y="29.5" width="0.3" height="1.5" fill="#000"/>
+<rect x="57.65" y="29.5" width="0.3" height="1.5" fill="#000"/>
+<rect x="67.65" y="29.5" width="0.3" height="1.5" fill="#000"/>
+<text x="42.8" y="35" font-size="2.2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" fill="#000">Bar = 50.0 mm ± 0.3</text>
+<path d="M 42.8 6 L 39.8 11 L 41.8 11 L 41.8 18 L 43.8 18 L 43.8 11 L 45.8 11 Z" fill="#000"/>
+<text x="42.8" y="22" font-size="2.2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" fill="#000">Fingertips this way</text>
+<text x="42.8" y="52" font-size="1.8" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" fill="#555">NM-CARD-1 · DICT_4X4_50 · markers 15 mm</text>
+</svg>

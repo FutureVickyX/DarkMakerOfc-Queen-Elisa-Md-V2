@@ -3,13 +3,11 @@
  *
  * OpenCV.js has no complete TypeScript typings for the ArUco module, so the
  * runtime is typed as `CV` (any) here and wrapped by small, typed functions in
- * the sibling modules. Nothing outside src/lib/cv touches OpenCV directly.
+ * the CV and segmentation modules. React components never touch OpenCV directly.
  */
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type CV = any;
-
-let pending: Promise<CV> | null = null;
 
 /** Resolves the various shapes the Emscripten module can take once loaded. */
 export async function resolveCvModule(mod: CV): Promise<CV> {
@@ -33,19 +31,4 @@ export async function resolveCvModule(mod: CV): Promise<CV> {
       resolve(mod);
     };
   });
-}
-
-/** Node / test loader. */
-export function loadOpenCvNode(): Promise<CV> {
-  if (!pending) {
-    pending = (async () => {
-      // Use require rather than `await import()`: the Emscripten module object exposes a
-      // `then` method, which makes a dynamic-import namespace look like a thenable and hang.
-      const { createRequire } = await import("node:module");
-      const require = createRequire(import.meta.url);
-      const mod = require("@techstark/opencv-js") as CV;
-      return resolveCvModule(mod);
-    })();
-  }
-  return pending;
 }

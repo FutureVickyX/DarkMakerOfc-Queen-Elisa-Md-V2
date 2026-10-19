@@ -10,7 +10,8 @@ import { measureNail } from "@/lib/measurement/measurementEngine";
 import { ellipsePolygon, projectPolygon, renderScene, type CameraPose } from "../../../tests/helpers/synth";
 import { analyzeImageQuality } from "./imageQuality";
 import { detectMarkers } from "./markerDetector";
-import { loadOpenCvNode, type CV } from "./opencv";
+import { type CV } from "./opencv";
+import { loadOpenCvNode } from "./opencv.node";
 
 let cv: CV;
 beforeAll(async () => {

@@ -25,3 +25,4 @@ validation/output/
 .DS_Store
 .vercel
 *.log
+tests/e2e/.fixtures/

@@ -16,7 +16,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "card": "node scripts/generate-card.mjs"
+    "benchmark": "vitest run --config vitest.benchmark.config.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.118.0",
