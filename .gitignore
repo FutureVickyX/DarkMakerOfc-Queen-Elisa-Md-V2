@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# generated at install time by scripts/copy-opencv.mjs
+public/vendor/opencv.js
+
+# next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# testing
+coverage/
+test-results/
+playwright-report/
+validation/output/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# misc
+.DS_Store
+.vercel
+*.log
